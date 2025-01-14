@@ -1,4 +1,4 @@
-<h1>Udemy clone</h1>
+<h1>Udemy webpage</h1>
 
 <h3>Description</h3>
 <p> This is an clone of Udemy, an online learning platform that offers a wide range of courses on a variety of topics <br>
