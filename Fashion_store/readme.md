@@ -1,5 +1,5 @@
 <h1>Fashion Store</h1>
-<hr>
+
 <h3>Description</h3>
 <p>Fashion Store webpage shows an e-commerce website.</p>
 
