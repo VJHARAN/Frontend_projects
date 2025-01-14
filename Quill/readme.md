@@ -4,10 +4,9 @@
 <p> Quill is a journal taking web application. </p>
 
 <h3>Project Screenshot</h3>
-<img src="images/quillss1.png" alt="screenshot" width="80%">
-<img src="images/quillss2.png" alt="screenshot" width="80%">
-<img src="images/quillss3.png" alt="screenshot" width="80%">                            
-
+<img src="images/quillSS1.png" alt="screenshot" width="80%">
+<img src="images/quillSS2.png" alt="screenshot" width="80%">
+ 
 <h3> Features</h3>
 <ul>
     <li>Navigation</li>
