@@ -1,5 +1,5 @@
 <h1>Quill</h1>
-<hr>
+
 <h3>Description</h4>
 <p> Quill is a journal taking web application. </p>
 
