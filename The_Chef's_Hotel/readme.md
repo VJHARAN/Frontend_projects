@@ -10,7 +10,7 @@
 <h3>Features</h3>
 <ul>
     <li>Hero Section</li>
-    <li>types of rooms</li>
+    <li>Types of rooms</li>
     <li>Book now </li>
     <li>About section</li>
 </ul>
