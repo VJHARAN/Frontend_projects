@@ -7,14 +7,25 @@ body{
 .headerh1{
     text-align:center;
     font-size:80px;
+    font-family: "Ubuntu", serif;
+    font-weight: 300;
+    font-style: normal;
     border-bottom:10px solid  #EEDCBF;
     margin: 30px;
+    padding:10px;
+}
+span{
+    font-family: "Ubuntu", serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
-
 .headerh2{
+    font-family: "Ubuntu",serif;
+    font-weight:500;
+
     padding-left: 30px;
-    font-size:60px;
+    font-size:50px;
     text-align: left;
 }
 
@@ -27,12 +38,15 @@ body{
     font-style: normal;
     text-align: left;
     margin-right:30%;
+    
 }
 
 
-h3{  font-weight: 400;
+h3{ color:#F0D02D;
     padding-bottom: 30px;
     padding: 20px;
+    font-size:30px;
+    font-weight: 400;
     font-weight: bold;
     text-align: center;
     border-bottom:5px solid  #EEDCBF;
@@ -69,13 +83,13 @@ img{
 th,td{  
     padding: 10px;
     text-align: center;
-    border: 1px solid #B87114;
+    border: 4px solid #B87114;
     
 }
 
 th{
-    background-color: #B87114;
-    color: #EEDCBF;
+    background-color: #F0D02D;
+    color: #120B02;
 }   
 
 td{ width: 20%;
@@ -94,6 +108,7 @@ a{
 main p{
     font-family: "Ubuntu", serif;
     font-weight: 700;
+    font-size:30px;
     font-style: normal;
     text-align: center;
     padding-bottom: 50px;
