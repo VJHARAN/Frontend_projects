@@ -1,0 +1,19 @@
+
+.headerh1{
+    text-align:center;
+    font-size:100px;
+}
+
+
+.headerh1small{
+    font-size:50px;
+
+    text-align: right;
+}
+
+
+.headerp{  
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: right;
+}
