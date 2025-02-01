@@ -4,6 +4,7 @@
 <ul >
     <li>The Chef's Hotel</li>
     <li>Fashion Store </li>
+    <li>Recipe page</li>
     <li>Quill - journal app</li>
     <li>Udemy clone</li>
 
