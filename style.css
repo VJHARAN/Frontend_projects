@@ -1,0 +1,15 @@
+body{
+    background-color:#FBE9D0;   
+}
+h1{
+    color:#874F41;
+}
+li a {
+    color:#E64833;
+}
+a{
+    text-decoration: none;
+}
+hr{
+    border:3px solid #90AEAD;
+}
