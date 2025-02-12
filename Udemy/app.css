@@ -16,10 +16,7 @@ body{
 
 
 
-p{
-    color:#ffffff;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
+ 
 
 .h2{color:blue;
 
@@ -45,6 +42,7 @@ div.header-flash{
 
 .header-flash p{
     font-size:19px;
+    color:white;
 }
 #days{
     width:fit-content;
@@ -58,31 +56,121 @@ div.navigation{
 div.navigation ul{
     list-style: none;
     display: flex;
-    width:fit-content;
-    margin :0 auto;
+    
+     
     padding:20px;
     font-size:20px;
     align-items: center;
 }
 .navigation li{
     
-    margin:0px 15px;
+    margin:15px auto;
     padding-bottom :0px;
-    display: block;
+    
 }
 .navigation form input{
     width:350px;    
     font-size: 20px;
     padding:8px;
 }
-#login, #signup, #search{
-     display: inline-block;
+#login, #signup, #search, #allcourses{
+    
     padding:8px 16px;
     font-size:20px;
     font-weight:900;
+    border:1px solid;
     
 }
-#login{
+
+#login,#allcourses{
     background-color: white;
-    color:#8805ca;
+    color:#6d28d2;
 }
+
+#signup{
+    background-color: #6d28d2;
+    color:white;
+    padding:10px;
+}
+#search{
+    background-color: white;
+    color: #6d28d2;
+}
+
+    
+div.skills
+{   
+    margin:10px  auto;
+    background-color: rgb(234, 234, 234);
+    padding:20px;
+}
+div div{
+    background-color: rgb(256,256,256);
+    text-align: left;
+    margin-left:22%;
+    margin-right:25%;
+}
+div.skills ul{
+    list-style: none;
+    display:flex;
+    text-align: left;
+    
+    
+    padding:20px;
+    margin:0px auto;
+    width: max-content;
+}
+
+ 
+
+div.skills ul li ul{
+    
+    display: block;
+    margin:20px;
+    text-align: left;
+}
+div.skills ul li ul {
+   
+    padding:0;
+}
+ 
+
+
+div.companies{
+    width:100%;
+    padding:40px;
+    margin:15px auto;
+     
+}
+div.companies ul {
+    list-style: none   ;
+    
+    display: flex;
+    
+}
+
+.companies ul li{
+    margin: 10px auto;
+}
+#company{
+    text-align: center;
+     
+}
+
+div.goals {
+    width: fit-content;
+    display: flex;
+    margin:0 auto;
+}
+
+.goals li{
+    
+    list-style: none;
+    border:3px solid #6d28d2;
+    padding :30px;
+    margin:10px;
+}
+.goals div{
+    margin:0;
+}
+ 
