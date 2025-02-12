@@ -1,15 +1,45 @@
+html{
+    box-sizing: border-box;
+}
+
+*{
+    box-sizing: inherit;
+}
+
 body{
     background-color:#FBE9D0;   
+    
+    margin:50px;
 }
 h1{
     color:#874F41;
+    border:8px solid ;
+    border-bottom:5px dashed  ;
+    width:fit-content;
+    margin:0 auto;
+    padding:10px;
 }
+ul{ 
+    width:fit-content;
+    margin:50px auto;
+    display: flex;
+    list-style: none;   
+}
+h2{
+    margin:0;   
+}
+li{  
+    height: ;
+    margin:20px;
+    border-bottom: 4px solid rgb(75, 75, 243);    
+    
+}
+ 
 li a {
+    
     color:#E64833;
-}
-a{
     text-decoration: none;
 }
-hr{
-    border:3px solid #90AEAD;
-}
+
+   
+
