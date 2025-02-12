@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <link rel="icon" href="images/favicon.png">
+    <link rel="icon" href="https://frontends.udemycdn.com/frontends-homepage/staticx/udemy/images/v8/favicon-32x32.png">
     <link rel="stylesheet" href="app.css">
 
     <title>Online Courses - Learn Anything, On Your Schedule | Udemy</title>
@@ -12,51 +12,71 @@
 <body>
     <header>
         <!-- FLASH SALE -->
-        <ul>
-            <li>
-                <h4>Black Friday</h4>
-                <p>New skills mean new career opportunities. Courses from ₹399 through Nov 29.</p>
-            </li>
-            <li>
-                <h4>2 days left!</h4>
-            </li>
-        </ul>
-
+        <div class="header-flash">
+            <ul>
+                <li>
+                    <h4>Black Friday</h4>
+                </li>
+                <li>
+                    <p>New skills mean new career opportunities. Courses from ₹399 through Nov 29.</p>
+                </li>
+                    
+               
+                <li id="days">
+                    <h4>2 days left!</h4>
+                </li>
+            </ul>
+        </div>
+        
         <!-- NAVIGATION -->
         <nav >
-            <ul>
-                <li><a href="index.html"><img
-                            src="https://frontends.udemycdn.com/frontends-homepage/staticx/udemy/images/v7/logo-udemy.svg"
-                            alt="Udemy" width="91" height="34" loading="lazy"></a></li>  
-                <li>Categories</li>
+            <div class="navigation">
+                <ul>
+                    <li><a href="index.html"><img
+                                src="https://frontends.udemycdn.com/frontends-homepage/staticx/udemy/images/v7/logo-udemy.svg"
+                                alt="Udemy" width="91" height="auto" loading="lazy"></a></li>  
+                    
+                    <li>Explore</li>
+                    <li>Categories</li>
 
-                <form action="/search" method="get">
-                    <input type="text" name="search" placeholder="Search for anything" maxlength="40">
-                    <button>Search</button>
-                </form>
-
-                <li>Plans & Pricing</li>
-                <li>Udemy business</li>
-                <li>Teach on Udemy</li>
-                <li><a href="login.html"><img src="/images/cart-outline.svg" alt="cart" width="40px"></a></li>
-                <!--Insert basket symbol later-->
-                <li><a href="login.html">Login</a></li> <!--Insert login button later-->
-                <li>Sign up</li><!--Insert a signup button later-->
-                <li> <a href="#languages"><svg xmlns="http://www.w3.org/2000/svg" width="40px" class="ionicon"
-                            viewBox="0 0 512 512">
-                            <path d="M256 48C141.13 48 48 141.13 48 256s93.13 208 208 208 208-93.13 208-208S370.87 48 256 48z"
-                                fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32" />
-                            <path
-                                d="M256 48c-58.07 0-112.67 93.13-112.67 208S197.93 464 256 464s112.67-93.13 112.67-208S314.07 48 256 48z"
-                                fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32" />
-                            <path
-                                d="M117.33 117.33c38.24 27.15 86.38 43.34 138.67 43.34s100.43-16.19 138.67-43.34M394.67 394.67c-38.24-27.15-86.38-43.34-138.67-43.34s-100.43 16.19-138.67 43.34"
-                                fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                stroke-width="32" />
-                            <path fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"
-                                d="M256 48v416M464 256H48" />
-                        </svg></a></li>
-            </ul>
+                    <li><form action="/search" method="get">
+                            <input type="text" name="search" placeholder="Search for anything" maxlength="40"  >
+                            <button id="search" >Search</button>
+                        </form>
+                    </li>
+                    <li>Plans & Pricing</li>
+                    <li>Udemy business</li>
+                    <li>Teach on Udemy</li>
+                    <li>
+                        <a href="login.html">
+                            <img src="./images/shopping-cart.svg" alt="cart" width="25px">
+                        </a>
+                    </li>
+                    <!--Insert basket symbol later-->
+                    <li>
+                        <a href="login.html">
+                            <input id="login" type="button" value="Login">    
+                        </a>
+                    </li> 
+                    <li>
+                        <input  id="signup"type="button" name="signup" value="Sign up">
+                    </li> 
+                    <li> <a href="#languages"><svg xmlns="http://www.w3.org/2000/svg" width="40px" class="ionicon"
+                                viewBox="0 0 512 512">
+                                <path d="M256 48C141.13 48 48 141.13 48 256s93.13 208 208 208 208-93.13 208-208S370.87 48 256 48z"
+                                    fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32" />
+                                <path
+                                    d="M256 48c-58.07 0-112.67 93.13-112.67 208S197.93 464 256 464s112.67-93.13 112.67-208S314.07 48 256 48z"
+                                    fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32" />
+                                <path
+                                    d="M117.33 117.33c38.24 27.15 86.38 43.34 138.67 43.34s100.43-16.19 138.67-43.34M394.67 394.67c-38.24-27.15-86.38-43.34-138.67-43.34s-100.43 16.19-138.67 43.34"
+                                    fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="32" />
+                                <path fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"
+                                    d="M256 48v416M464 256H48" />
+                            </svg></a></li>
+                </ul>
+            </div>
         </nav>
     </header>
     
