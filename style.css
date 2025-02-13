@@ -14,7 +14,7 @@ body{
 h1{
     color:#874F41;
     border:8px solid ;
-    border-bottom:5px dashed  ;
+    border-bottom:5px double  ;
     width:fit-content;
     margin:0 auto;
     padding:10px;
