@@ -171,7 +171,7 @@ font-size:35px;
 }
 
 #plans{
-    margin: 120px;
+    margin: 50px;
     margin-top:60px;
 }
 
@@ -193,18 +193,18 @@ font-size:35px;
     margin:0px ;
 } 
 
-#plans li{
+.plans li{
     font-weight: bolder;
     border:2px solid grey;
     border-top:10px solid blue;
     padding:40px;
     margin:30px;
     margin-top:10px;
-    height:500px;
+    
     text-align: center;
     flex:1;  
 }
-
+ 
 .testi{
     background-color: rgb(243, 243, 243);
   
@@ -213,6 +213,7 @@ font-size:35px;
 
 .testi div{
     margin:200px;
+    margin-bottom:30px;
     margin-top: 20px;
     padding:20px;
 }
@@ -229,9 +230,21 @@ font-size:35px;
     
     padding:40px;
     margin:10px;
-    margin-top:10px;
+
     margin-left: 0;
      
     text-align: center;
     flex:1;  
 }
+
+section.trends{
+    text-align: center;
+}
+div.trends {
+    display: inline-flex ;
+    text-align: center;
+}
+ .trends>div{
+    margin:0;
+ }
+ 
