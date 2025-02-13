@@ -56,46 +56,45 @@ div.navigation{
 div.navigation ul{
     list-style: none;
     display: flex;
-    
-     
-    padding:20px;
     font-size:20px;
-    align-items: center;
+    align-items:center;
+    padding-left:0;
 }
 .navigation li{
-    
     margin:15px auto;
-    padding-bottom :0px;
-    
 }
-.navigation form input{
+.navigation  form input{
     width:350px;    
     font-size: 20px;
-    padding:8px;
-}
-#login, #signup, #search, #allcourses{
     
-    padding:8px 16px;
+}
+ 
+form{
+    display: flex;
+}
+
+ 
+#login, #signup,  #allcourses{
+     
     font-size:20px;
     font-weight:900;
     border:1px solid;
+    padding: 10px;
     
 }
 
-#login,#allcourses{
+#login,#allcourses {
     background-color: white;
     color:#6d28d2;
 }
-
+ 
 #signup{
     background-color: #6d28d2;
     color:white;
-    padding:10px;
 }
-#search{
-    background-color: white;
-    color: #6d28d2;
-}
+ 
+
+ 
 
     
 div.skills
