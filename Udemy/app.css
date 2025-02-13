@@ -1,6 +1,5 @@
 html{
     box-sizing: border-box;
-
 }
 
 *{
@@ -8,51 +7,43 @@ html{
 }
 
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     margin:0;
-    
 }
 
-
-
-
- 
-
-.h2{color:blue;
-
+.h2{
+    color:blue;
 }
+
 div.header-flash{
     background-color: #0095b6;
     padding: 2px;
     font-size: 24px;
-     
-    
 }
 
 .header-flash ul{
-    
     list-style: none;
     text-align: center;
 }
 
 .header-flash li h4,p{
     margin:10px;
-
 }
 
 .header-flash p{
     font-size:19px;
     color:white;
 }
+
 #days{
     width:fit-content;
     margin:0 auto
 }
 
 div.navigation{
-    border-bottom: 10px groove rgb(229, 229, 229);
-     
+    border-bottom: 10px groove rgb(229, 229, 229); 
 }
+
 div.navigation ul{
     list-style: none;
     display: flex;
@@ -60,27 +51,25 @@ div.navigation ul{
     align-items:center;
     padding-left:0;
 }
+
 .navigation li{
     margin:15px auto;
 }
+
 .navigation  form input{
     width:350px;    
     font-size: 20px;
-    
 }
  
 form{
     display: flex;
 }
-
  
-#login, #signup,  #allcourses{
-     
+#login, #signup,  #allcourses{ 
     font-size:20px;
     font-weight:900;
     border:1px solid;
     padding: 10px;
-    
 }
 
 #login,#allcourses {
@@ -92,10 +81,6 @@ form{
     background-color: #6d28d2;
     color:white;
 }
- 
-
- 
-
     
 div.skills
 {   
@@ -103,47 +88,41 @@ div.skills
     background-color: rgb(234, 234, 234);
     padding:20px;
 }
+
 div div{
     background-color: rgb(256,256,256);
     text-align: left;
     margin-left:22%;
     margin-right:25%;
 }
+
 div.skills ul{
     list-style: none;
     display:flex;
     text-align: left;
-    
-    
     padding:20px;
     margin:0px auto;
     width: max-content;
 }
 
- 
-
 div.skills ul li ul{
-    
     display: block;
     margin:20px;
     text-align: left;
 }
+
 div.skills ul li ul {
-   
     padding:0;
 }
  
-
-
 div.companies{
     width:100%;
     padding:40px;
     margin:15px auto;
-     
 }
+
 div.companies ul {
     list-style: none   ;
-    
     display: flex;
     
 }
@@ -151,25 +130,108 @@ div.companies ul {
 .companies ul li{
     margin: 10px auto;
 }
+
 #company{
     text-align: center;
-     
+}
+
+.goalsection{
+    background-color: rgb(245, 245, 245);
 }
 
 div.goals {
     width: fit-content;
     display: flex;
-    margin:0 auto;
+    margin:15px auto;
 }
 
+.goals div {
+    flex:1;
+    margin:20px;
+    background-color: rgb(245,245,245);
+ }
+  
 .goals li{
-    
     list-style: none;
-    border:3px solid #6d28d2;
-    padding :30px;
+    border:2px solid #6d28d2;
+    padding :50px;
     margin:10px;
+   text-align: center;
 }
-.goals div{
-    margin:0;
+
+.goals div ul{
+    padding:50px;
+    padding-top:10px;
+     
 }
- 
+
+.goals div h2{
+padding: 0px;
+font-size:35px;
+}
+
+#plans{
+    margin: 120px;
+    margin-top:60px;
+}
+
+#plans .hp, #plans li{
+    margin:30px;
+    font-size: 20px;
+    
+}
+
+#plans h2.hp, .testi h2{
+    font-size: 40px;
+}
+#plans ul{
+    display: flex;
+    list-style: none;
+    
+    padding-top:10px;
+    padding-left:0px;
+    margin:0px ;
+} 
+
+#plans li{
+    font-weight: bolder;
+    border:2px solid grey;
+    border-top:10px solid blue;
+    padding:40px;
+    margin:30px;
+    margin-top:10px;
+    height:500px;
+    text-align: center;
+    flex:1;  
+}
+
+.testi{
+    background-color: rgb(243, 243, 243);
+  
+    
+}
+
+.testi div{
+    margin:200px;
+    margin-top: 20px;
+    padding:20px;
+}
+
+.testi ul{
+    display: flex;
+    list-style: none;
+    padding:0px;
+}
+
+.users li{
+    font-weight: 400;
+    border:2px solid grey;
+    
+    padding:40px;
+    margin:10px;
+    margin-top:10px;
+    margin-left: 0;
+     
+    text-align: center;
+    flex:1;  
+}
