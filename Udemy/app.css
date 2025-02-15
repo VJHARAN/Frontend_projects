@@ -64,20 +64,19 @@ div.navigation ul{
 }
  
  
- 
-#login, #signup,  #allcourses{ 
+#login, #signup,  #allcourses,#achievements, #trending-button{ 
     font-size:20px;
     font-weight:900;
     border:1px solid;
     padding: 10px;
 }
 
-#login,#allcourses {
+#login,#allcourses, #trending-button {
     background-color: white;
     color:#6d28d2;
 }
  
-#signup{
+#signup, #achievements{
     background-color: #6d28d2;
     color:white;
 }
@@ -187,7 +186,7 @@ font-size:35px;
     font-size: 20px;
 }
 
-#plans h2.hp, .testi h2{
+#plans h2.hp, .testi h2 {
     font-size: 40px;
 }
 
@@ -268,6 +267,71 @@ div.trends {
     list-style: none;
     padding:15px;
     text-align: left;
+}
+ 
+.trending{
+    background-color: rgb(243,243,243);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.trending-maindiv 
+{
+    margin-bottom:20px;
+}
+.trending-maindiv h2{
+    font-size: 40px;
+    margin-left:40px;
+    padding:10px;
+    border-bottom: 1px solid rgb(157, 157, 157);
+}
+
+.trending-maindiv ul{
+    list-style: none;
+}
+
+.trending-ul{
+    display: flex;
+    justify-content: center;
+    gap:30px;
+    list-style: none;
+    
+}
+
+li.trending-ul-li{
+    list-style: none;
+     
+    padding:10px;
+    font-size:30px;
+}
+
+.trending-ul-li  ul{
+    list-style: none;
+    font-size:20px;
+    padding-left: 0;
+}
+
+.achieve{
+    padding:30px;   
+    display: flex;
+    justify-content: center;
+    gap:8%;
+}
+.achieve ul{
+    list-style: none; 
+    padding-left: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.achieve h2{
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size:40px;
+}
+
+.achieve li{
+    border-bottom: 1px solid grey;
 }
  
  
