@@ -5,10 +5,11 @@
 <p>This webpage contains links to all the projects done by me with HTML & CSS </p>
  
 <ul >
+    <li>Udemy clone</li>
     <li>Recipe page</li>
     <li>The Chef's Hotel</li>
     <li>Fashion Store </li>
     <li>Quill - journal app</li>
-    <li>Udemy clone</li>
+    
 
 </ul>
