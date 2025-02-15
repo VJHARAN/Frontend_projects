@@ -81,39 +81,31 @@ form{
     background-color: #6d28d2;
     color:white;
 }
-    
-div.skills
+
+.mainskills div{
+    margin:40px;
+}
+ul.skills 
 {   
-    margin:10px  auto;
+    margin:20px auto;
     background-color: rgb(234, 234, 234);
     padding:20px;
-}
-
-div div{
-    background-color: rgb(256,256,256);
-    text-align: left;
-    margin-left:22%;
-    margin-right:25%;
-}
-
-div.skills ul{
-    list-style: none;
     display:flex;
-    text-align: left;
-    padding:20px;
-    margin:0px auto;
-    width: max-content;
+   
 }
-
-div.skills ul li ul{
-    display: block;
-    margin:20px;
-    text-align: left;
+ 
+.skills li{
+    flex:1;
+    list-style:none;
+    margin:10px;
+    padding:10px;
+    
 }
-
-div.skills ul li ul {
-    padding:0;
+li.skill-li p{
+    border-bottom: 2px dashed  grey;
+    width:fit-content;
 }
+ 
  
 div.companies{
     width:100%;
@@ -137,16 +129,19 @@ div.companies ul {
 
 .goalsection{
     background-color: rgb(245, 245, 245);
+    text-align: center;
+
 }
 
+
 div.goals {
-    width: fit-content;
-    display: flex;
-    margin:15px auto;
+     
+    display: inline-flex;
+    margin:0px auto;
 }
 
 .goals div {
-    flex:1;
+     
     margin:20px;
     background-color: rgb(245,245,245);
  }
@@ -185,7 +180,7 @@ font-size:35px;
     font-size: 40px;
 }
 #plans ul{
-    display: flex;
+     
     list-style: none;
     
     padding-top:10px;
@@ -193,18 +188,34 @@ font-size:35px;
     margin:0px ;
 } 
 
-.plans li{
+ul.plans{
+    display: flex;
+}
+
+li.plans-li{
     font-weight: bolder;
     border:2px solid grey;
     border-top:10px solid blue;
     padding:40px;
     margin:30px;
     margin-top:10px;
+    flex:1;
+     
+}
+p.benefits{
+    padding:20px;
     
-    text-align: center;
-    flex:1;  
 }
  
+
+ .benefits li{
+    flex:1;
+    border:2px solid blue;
+    padding:10px;
+    text-align: center;
+ }
+
+
 .testi{
     background-color: rgb(243, 243, 243);
   
@@ -219,7 +230,7 @@ font-size:35px;
 }
 
 .testi ul{
-    display: flex;
+    display: inline-flex;
     list-style: none;
     padding:0px;
 }
@@ -233,8 +244,7 @@ font-size:35px;
 
     margin-left: 0;
      
-    text-align: center;
-    flex:1;  
+      
 }
 
 section.trends{
