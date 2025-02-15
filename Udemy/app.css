@@ -48,12 +48,12 @@ div.navigation ul{
     list-style: none;
     display: flex;
     font-size:20px;
-    align-items:center;
+   justify-content: space-between;
     padding-left:0;
 }
 
 .navigation li{
-    margin:15px auto;
+    margin:20px  ;
 }
 
 .navigation  form input{
@@ -61,9 +61,7 @@ div.navigation ul{
     font-size: 20px;
 }
  
-form{
-    display: flex;
-}
+ 
  
 #login, #signup,  #allcourses{ 
     font-size:20px;
@@ -85,27 +83,40 @@ form{
 .mainskills div{
     margin:40px;
 }
+
+.maindiv-skills{
+    background-color: rgb(234, 234, 234);
+    padding:30px;
+}
+
+
+
 ul.skills 
 {   
     margin:20px auto;
-    background-color: rgb(234, 234, 234);
+
     padding:20px;
     display:flex;
     justify-content:center;
 }
  
 .skills li{
-    border:2px dashed white;
+    border:2px dashed rgb(159, 193, 188);
     list-style:none;
     margin:10px;
     padding:10px;
     
 }
+
 li.skill-li p{
-    border-bottom: 2px dashed  grey;
+    border-bottom: 2px dashed  rgb(117, 117, 117);
     width:fit-content;
+     
 }
  
+li.skill-li ul{
+padding: 20px;
+}
  
 div.companies{
     width:100%;
@@ -184,12 +195,12 @@ font-size:35px;
 #plans h2.hp, .testi h2{
     font-size: 40px;
 }
+
 #plans ul.plans{
-     
     list-style: none;
     padding: 0px;
-     
 } 
+
 .plans{
     display: flex;
     justify-content: center;
@@ -207,24 +218,19 @@ li.plans-li{
      
     flex-direction: column;
 }
+
 p.benefits{
     padding:20px;
-    
 }
  
-
- .benefits li{
-     
+.benefits li{
     border:2px solid blue;
     padding:10px;
     list-style: none;
  }
 
-
 .testi{
-    background-color: rgb(243, 243, 243);
-  
-    
+    background-color: rgb(243, 243, 243); 
 }
 
 .testi div{
@@ -234,36 +240,29 @@ p.benefits{
     padding:20px;
 }
 
- 
-
 .users{
     list-style: none;
     display: flex;
     justify-content: center;
     padding: 0px;
 }
+
 .users li{
     font-weight: 400;
     border:2px solid grey;
-    
     padding:40px;
     margin:10px;
-
     margin-left: 0;
-     
-      
 }
 
- 
 div.trends {
     display: flex ;
     text-align: center;
     justify-content: center ;
     padding:20px;
 }
-    
 
- .trends-div,.trends-img{
+.trends-div, .trends-img{
     border:2px solid grey;
     margin:20px;
  }
