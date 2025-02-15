@@ -61,6 +61,7 @@ div.navigation ul{
 .navigation  form input{
     width:350px;    
     font-size: 23px;
+    border-radius: 15px;
 }
  
  
@@ -69,6 +70,7 @@ div.navigation ul{
     font-weight:900;
     border:1px solid;
     padding: 10px;
+    border-radius: 10px;
 }
 
 #login,#allcourses, #trending-button {
@@ -314,6 +316,7 @@ li.trending-ul-li{
 
 .achieve{
     padding:30px;   
+    padding-bottom: 0;
     display: flex;
     justify-content: center;
     gap:8%;
@@ -334,4 +337,65 @@ li.trending-ul-li{
     border-bottom: 1px solid grey;
 }
  
+ .footer{
+    display: flex;
+    justify-content:space-between;
+    background-color: #000000d3;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+   border-top:  1px solid white;
+    border-bottom: 1px solid white;
+ }
+ .footer span{
+    color:#b182f8;
+ }
+
  
+ .footer-img{
+    align-items: center;
+    display: flex;
+    list-style:none ;
+    width:40px;
+    flex:auto;
+    justify-content: center;
+    gap:8%;
+ }
+
+ .quick{
+     
+    border-bottom:  1px solid white;
+    padding:20px;
+    background-color:#000000d3; 
+    color:white;
+    align-items: center;
+ }
+
+.quick ul{
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    justify-content: space-between;
+}
+
+.quick h4
+{
+    text-align: center;
+}
+.quick h4 ,.about h3{
+    margin:0;
+}
+ .about{
+    display: flex;
+    padding:20px;
+    background-color:#000000; 
+    color:white;
+    justify-content: space-between;
+    align-items: center;
+;
+ }
+
+ #languages img{
+    width:30px;
+    height: auto;
+ }
