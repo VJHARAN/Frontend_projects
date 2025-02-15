@@ -91,11 +91,11 @@ ul.skills
     background-color: rgb(234, 234, 234);
     padding:20px;
     display:flex;
-   
+    justify-content:center;
 }
  
 .skills li{
-    flex:1;
+    border:2px dashed white;
     list-style:none;
     margin:10px;
     padding:10px;
@@ -116,11 +116,11 @@ div.companies{
 div.companies ul {
     list-style: none   ;
     display: flex;
-    
+    justify-content:center;
 }
 
 .companies ul li{
-    margin: 10px auto;
+    margin:10px  50px;
 }
 
 #company{
@@ -136,7 +136,8 @@ div.companies ul {
 
 div.goals {
      
-    display: inline-flex;
+    display:  flex;
+    justify-content: center;
     margin:0px auto;
 }
 
@@ -144,6 +145,7 @@ div.goals {
      
     margin:20px;
     background-color: rgb(245,245,245);
+    flex-direction:column;
  }
   
 .goals li{
@@ -166,10 +168,13 @@ font-size:35px;
 }
 
 #plans{
-    margin: 50px;
+    margin: 80px;
     margin-top:60px;
+   
+
 }
 
+ 
 #plans .hp, #plans li{
     margin:30px;
     font-size: 20px;
@@ -179,18 +184,17 @@ font-size:35px;
 #plans h2.hp, .testi h2{
     font-size: 40px;
 }
-#plans ul{
+#plans ul.plans{
      
     list-style: none;
-    
-    padding-top:10px;
-    padding-left:0px;
-    margin:0px ;
+    padding: 0px;
+     
 } 
-
-ul.plans{
+.plans{
     display: flex;
+    justify-content: center;
 }
+ 
 
 li.plans-li{
     font-weight: bolder;
@@ -199,8 +203,9 @@ li.plans-li{
     padding:40px;
     margin:30px;
     margin-top:10px;
-    flex:1;
+    display: flex;
      
+    flex-direction: column;
 }
 p.benefits{
     padding:20px;
@@ -209,10 +214,10 @@ p.benefits{
  
 
  .benefits li{
-    flex:1;
+     
     border:2px solid blue;
     padding:10px;
-    text-align: center;
+    list-style: none;
  }
 
 
@@ -229,12 +234,14 @@ p.benefits{
     padding:20px;
 }
 
-.testi ul{
-    display: inline-flex;
-    list-style: none;
-    padding:0px;
-}
+ 
 
+.users{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+}
 .users li{
     font-weight: 400;
     border:2px solid grey;
@@ -247,14 +254,18 @@ p.benefits{
       
 }
 
-section.trends{
-    text-align: center;
-}
+ 
 div.trends {
-    display: inline-flex ;
+    display: flex ;
     text-align: center;
+    justify-content: center ;
+    padding:20px;
 }
- .trends>div{
-    margin:0;
+    
+
+ .trends-div,.trends-img{
+    border:2px solid grey;
+    margin:20px;
  }
+ 
  
