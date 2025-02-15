@@ -17,17 +17,16 @@ body{
 
 div.header-flash{
     background-color: #0095b6;
-    padding: 2px;
     font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    gap:8px;
+    padding:5px;
 }
-
-.header-flash ul{
-    list-style: none;
-    text-align: center;
-}
-
-.header-flash li h4,p{
-    margin:10px;
+ 
+.header-flash h4,p{
+    margin:10px 0;
 }
 
 .header-flash p{
@@ -48,8 +47,11 @@ div.navigation ul{
     list-style: none;
     display: flex;
     font-size:20px;
-   justify-content: space-between;
+    justify-content: center;
+    gap:10px;
     padding-left:0;
+    align-items: center;
+     
 }
 
 .navigation li{
@@ -58,7 +60,7 @@ div.navigation ul{
 
 .navigation  form input{
     width:350px;    
-    font-size: 20px;
+    font-size: 23px;
 }
  
  
@@ -82,28 +84,27 @@ div.navigation ul{
 
 .mainskills div{
     margin:40px;
+     
 }
 
 .maindiv-skills{
     background-color: rgb(234, 234, 234);
-    padding:30px;
+    padding:20px;
 }
-
-
-
+ 
 ul.skills 
 {   
-    margin:20px auto;
-
+    
     padding:20px;
     display:flex;
     justify-content:center;
+    gap:10px;
 }
  
 .skills li{
     border:2px dashed rgb(159, 193, 188);
     list-style:none;
-    margin:10px;
+     
     padding:10px;
     
 }
@@ -118,45 +119,48 @@ li.skill-li ul{
 padding: 20px;
 }
  
-div.companies{
-    width:100%;
+div.companies{    
     padding:40px;
-    margin:15px auto;
-}
+    flex-direction: column;
+    justify-content: center;
+}   
 
 div.companies ul {
     list-style: none   ;
     display: flex;
+    gap:6%;   
     justify-content:center;
+    padding-left: 0;
 }
 
-.companies ul li{
-    margin:10px  50px;
+div.companies li{
+    gap:20px;
+    
 }
 
-#company{
+p#company{
     text-align: center;
 }
-
+ 
 .goalsection{
+    display: flex;
     background-color: rgb(245, 245, 245);
-    text-align: center;
+    padding:30px 0px;
+    flex-direction: column;
+    align-items: center;
 
 }
+ 
+.goalsection-div {
+    display: flex;
+     justify-content: center;
+      
+}
 
-
-div.goals {
-     
+div.goals { 
     display:  flex;
-    justify-content: center;
-    margin:0px auto;
-}
-
-.goals div {
-     
     margin:20px;
     background-color: rgb(245,245,245);
-    flex-direction:column;
  }
   
 .goals li{
@@ -164,16 +168,10 @@ div.goals {
     border:2px solid #6d28d2;
     padding :50px;
     margin:10px;
-   text-align: center;
+    text-align: center;
 }
 
-.goals div ul{
-    padding:50px;
-    padding-top:10px;
-     
-}
-
-.goals div h2{
+.goalsection   h2{
 padding: 0px;
 font-size:35px;
 }
@@ -181,46 +179,48 @@ font-size:35px;
 #plans{
     margin: 80px;
     margin-top:60px;
-   
-
+     
 }
-
  
 #plans .hp, #plans li{
-    margin:30px;
+    margin:10px;
     font-size: 20px;
-    
 }
 
 #plans h2.hp, .testi h2{
     font-size: 40px;
 }
 
-#plans ul.plans{
-    list-style: none;
-    padding: 0px;
-} 
-
-.plans{
+#plans div.plans-div{
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: start;
 }
+
+#plans ul.plans{
+    display: flex;
+    list-style: none;
+    padding : 0px;
+    
+    justify-content: space-between;
+} 
+
  
 
 li.plans-li{
     font-weight: bolder;
     border:2px solid grey;
     border-top:10px solid blue;
-    padding:40px;
-    margin:30px;
-    margin-top:10px;
-    display: flex;
-     
-    flex-direction: column;
+    padding:20px;  
+}
+
+ul.benefits{
+    padding:0;
 }
 
 p.benefits{
-    padding:20px;
+    padding:10px;
 }
  
 .benefits li{
@@ -233,7 +233,7 @@ p.benefits{
     background-color: rgb(243, 243, 243); 
 }
 
-.testi div{
+div.testi {
     margin:200px;
     margin-bottom:30px;
     margin-top: 20px;
@@ -243,7 +243,7 @@ p.benefits{
 .users{
     list-style: none;
     display: flex;
-    justify-content: center;
+   
     padding: 0px;
 }
 
@@ -262,9 +262,12 @@ div.trends {
     padding:20px;
 }
 
-.trends-div, .trends-img{
+.trends-div , .trends-img{
     border:2px solid grey;
     margin:20px;
- }
+    list-style: none;
+    padding:15px;
+    text-align: left;
+}
  
  
