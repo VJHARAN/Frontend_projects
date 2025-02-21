@@ -1,0 +1,50 @@
+a{
+    color:#6A9452;  
+}
+
+ul{
+    list-style: none;
+}
+
+body{
+    text-align: center;
+}
+li
+{
+    display: inline-block;
+}
+header{
+    text-align:center;
+    
+}
+#hp-ctn-howItWorks
+{
+    
+    position:fixed;
+    top:300px;
+    right: 0px;
+    
+    padding-top: 100px;
+    
+    margin:0px;
+    width: 40px;
+    height:90px;
+    background:#3887B7;
+    z-index:15;
+    border-radius: 3px 0px 0px 3px;
+}
+#hp-ctn-howItWorks:hover{
+
+        box-shadow: 0 0 5px 0 #555555;
+    
+}
+
+
+#hp-ctn-howItWorks p
+{   
+    color: #fff;
+    -moz-transform:rotate(-90deg);
+    -ms-transform:rotate(-90deg);
+    -o-transform:rotate(-90deg);
+    -webkit-transform:rotate(-90deg);
+}
