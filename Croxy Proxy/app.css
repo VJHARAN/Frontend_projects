@@ -24,6 +24,13 @@ a{
     font-size: 20px;
 }
 
+.urlbox a:hover{
+    box-shadow: 0 0 10px 0 #0270ff;
+}
+
+a:hover{
+     color:#0270ff;
+}
 .header a{
     font-weight: 700;
      
