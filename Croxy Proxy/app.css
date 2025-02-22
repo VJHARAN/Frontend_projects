@@ -144,10 +144,23 @@ p{
     list-style-type: disc;
 }
 
-footer{
+.footer1{
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: center;  
+       
+    
+   
+}
+ 
+.footer1 li, .footer2 li{
+    margin:0px 10px;
+}
+
+.footer2{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+ 
 }
 
 
