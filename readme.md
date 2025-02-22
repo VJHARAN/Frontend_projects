@@ -7,6 +7,7 @@
 <ul >
     <li>Udemy clone</li>
     <li>Recipe page</li>
+    <li>Croxy Proxy webpage<</li>
     <li>The Chef's Hotel</li>
     <li>Fashion Store </li>
     <li>Quill - journal app</li>
