@@ -1,0 +1,3 @@
+[submodule "qr_code"]
+	path = qr_code
+	url = git@github.com:VJHARAN/QR_code_component.git
