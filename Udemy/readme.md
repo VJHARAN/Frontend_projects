@@ -3,13 +3,6 @@
 <h3>Description</h3>
 <p> This is a clone of Udemy's webpage, the online learning platform that offers a wide range of courses on a variety of topics <br>
 
-<h3>Project Screenshot</h3>
-<img src="images/udemy1.png" alt="screenshot" width="80%">
-<img src="images/udemy2.png" alt="screenshot" width="80%">
-<img src="images/udemy3.png" alt="screenshot" width="80%">
-<img src="images/udemy4.png" alt="screenshot" width="80%">
-<img src="images/udemy5.png" alt="screenshot" width="80%">
-<img src="images/udemy6.png" alt="screenshot" width="80%">
 
 <h3>Features</h3>
 <ul>

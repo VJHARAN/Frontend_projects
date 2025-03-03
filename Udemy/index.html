@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <link rel="icon" href="images/favicon.png">
+    <link rel="icon" href="https://frontends.udemycdn.com/frontends-homepage/staticx/udemy/images/v8/favicon-32x32.png">
     <link rel="stylesheet" href="app.css">
 
     <title>Online Courses - Learn Anything, On Your Schedule | Udemy</title>
@@ -12,51 +12,64 @@
 <body>
     <header>
         <!-- FLASH SALE -->
-        <ul>
-            <li>
-                <h4>Black Friday</h4>
-                <p>New skills mean new career opportunities. Courses from ₹399 through Nov 29.</p>
-            </li>
-            <li>
-                <h4>2 days left!</h4>
-            </li>
-        </ul>
-
+        <div class="header-flash">  
+            <h4>Black Friday</h4>
+            <p>New skills mean new career opportunities. Courses from ₹399 through Nov 29.</p>            
+            <h4>2 days left!</h4>
+            
+        </div>
+        
         <!-- NAVIGATION -->
         <nav >
-            <ul>
-                <li><a href="index.html"><img
-                            src="https://frontends.udemycdn.com/frontends-homepage/staticx/udemy/images/v7/logo-udemy.svg"
-                            alt="Udemy" width="91" height="34" loading="lazy"></a></li>  
-                <li>Categories</li>
+            <div class="navigation">
+                <ul>
+                    <li><a href="index.html"><img
+                                src="https://frontends.udemycdn.com/frontends-homepage/staticx/udemy/images/v7/logo-udemy.svg"
+                                alt="Udemy" width="91" height="auto" loading="lazy"></a></li>  
+                    
+                    <li>Explore</li>
+                    <li>Categories</li>
 
-                <form action="/search" method="get">
-                    <input type="text" name="search" placeholder="Search for anything" maxlength="40">
-                    <button>Search</button>
-                </form>
-
-                <li>Plans & Pricing</li>
-                <li>Udemy business</li>
-                <li>Teach on Udemy</li>
-                <li><a href="login.html"><img src="/images/cart-outline.svg" alt="cart" width="40px"></a></li>
-                <!--Insert basket symbol later-->
-                <li><a href="login.html">Login</a></li> <!--Insert login button later-->
-                <li>Sign up</li><!--Insert a signup button later-->
-                <li> <a href="#languages"><svg xmlns="http://www.w3.org/2000/svg" width="40px" class="ionicon"
-                            viewBox="0 0 512 512">
-                            <path d="M256 48C141.13 48 48 141.13 48 256s93.13 208 208 208 208-93.13 208-208S370.87 48 256 48z"
-                                fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32" />
-                            <path
-                                d="M256 48c-58.07 0-112.67 93.13-112.67 208S197.93 464 256 464s112.67-93.13 112.67-208S314.07 48 256 48z"
-                                fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32" />
-                            <path
-                                d="M117.33 117.33c38.24 27.15 86.38 43.34 138.67 43.34s100.43-16.19 138.67-43.34M394.67 394.67c-38.24-27.15-86.38-43.34-138.67-43.34s-100.43 16.19-138.67 43.34"
-                                fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                stroke-width="32" />
-                            <path fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"
-                                d="M256 48v416M464 256H48" />
-                        </svg></a></li>
-            </ul>
+                    <li>
+                       <form action="">
+                           <input  class="searching"type="text" name="search" placeholder="Search for anything" maxlength="40"  >
+                       </form>                
+                    </li>
+                    <li>Plans & Pricing</li>
+                    <li>Udemy business</li>
+                    <li>Teach on Udemy</li>
+                    <li>
+                        <a href="login.html" >
+                            <img src="./images/shopping-cart.svg" alt="cart" width="25px">
+                        </a>
+                    </li>
+                    <!--Insert basket symbol later-->
+                    <li>
+                          <a href="login.html">
+                            <input id="login" type="button" value="Login">    
+                        </a>  
+                    </li> 
+                    <li>
+                        <input  id="signup"type="button" name="signup" value="Sign up">
+                    </li> 
+                    <li> <a href="#languages"><svg xmlns="http://www.w3.org/2000/svg" width="40px" class="ionicon"
+                                viewBox="0 0 512 512">
+                                <path d="M256 48C141.13 48 48 141.13 48 256s93.13 208 208 208 208-93.13 208-208S370.87 48 256 48z"
+                                    fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32" />
+                                <path
+                                    d="M256 48c-58.07 0-112.67 93.13-112.67 208S197.93 464 256 464s112.67-93.13 112.67-208S314.07 48 256 48z"
+                                    fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32" />
+                                <path
+                                    d="M117.33 117.33c38.24 27.15 86.38 43.34 138.67 43.34s100.43-16.19 138.67-43.34M394.67 394.67c-38.24-27.15-86.38-43.34-138.67-43.34s-100.43 16.19-138.67 43.34"
+                                    fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="32" />
+                                <path fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"
+                                    d="M256 48v416M464 256H48" />
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </nav>
     </header>
     
@@ -66,207 +79,283 @@
 
         <!-- SKILLS SECTION -->
         <section>
-            <h2 class="h2">All the skills you need in one place</h2>
-            <p>From critical skills to technical topics, Udemy supports your professional development.</p>
-            <ul>
-                <!-- Make Buttons for the main list items -->
-                <li>Data Science
-                    <ul>
-                        <li>ChatGPT</li>
-                        <li>Data Science </li>
-                        <li>Python</li>
-                        <li>Machine Learing</li>
-                        <li>Artificial Intelligence</li>
+            
+            <div class="mainskills" >
+                <div class="mainskills-div">
+                    <h2 class="h2">All the skills you need in one place</h2>
+                    <p>From critical skills to technical topics, Udemy supports your professional development.</p>
+                </div>
+                <div class="maindiv-skills">
+                    <ul class="skills">
+                        <!-- Make Buttons for the main list items -->
+                        <li class="skill-li" >
+                            <p>Data Science</p>
+                            <ul >
+                                <li>ChatGPT</li>
+                                <li>Data Science </li>
+                                <li>Python</li>
+                                <li>Machine Learing</li>
+                                <li>Artificial Intelligence</li>
+                            </ul>
+                        </li>
+                        <li class="skill-li">
+                            <p>IT Certifications</p>
+                            <ul>
+                                <li>Amazon AWS</li>
+                                <li>Kubernetes</li>
+                                <li>Microsoft Azure</li>
+                            </ul>
+                        </li>
+                        <li  class="skill-li">
+                            <p>Leadership</p>
+                            <ul>
+                                <li>Management Skills </li>
+                                <li>Project Management</li>
+                                <li>Personal Productivity</li>
+                                <li>Emotional Intelligence</li>
+                            </ul>
+                        </li>
+                        <li  class="skill-li">
+                            <p>Web Development</p>
+                            <ul>
+                                <li>JavaScript </li>
+                                <li>React JS</li>
+                                <li>Angular</li>
+                                <li>Android Development</li>
+                            </ul>
+                        </li>
+                        <li class="skill-li">
+                            <p>Communication</p>
+                            <ul>
+                                <li>Communication Skills</li>
+                                <li>Presentation Skills</li>
+                                <li>Public Speaking</li>
+                                <li>Email Writing</li>
+                            </ul>
+                        </li>
+                        <li class="skill-li">
+                            <p>Business Analytics & Intelligence</p>
+                            <ul>
+                                <li>Microsoft Excel</li>
+                                <li>SQL</li>
+                                <li>Power BI</li>
+                                <li>Tableau</li>
+                                <li>Data Visualization</li>
+                            </ul>
+                        </li>
                     </ul>
-                </li>
-                <li>IT Certifications
-                    <ul>
-                        <li>Amazon AWS</li>
-                        <li>Kubernetes</li>
-                        <li>Microsoft Azure</li>
-                    </ul>
-                </li>
-                <li>Leadership
-                    <ul>
-                        <li>Management Skills </li>
-                        <li>Project Management</li>
-                        <li>Personal Productivity</li>
-                        <li>Emotional Intelligence</li>
-                    </ul>
-                </li>
-                <li>Web Development
-                    <ul>
-                        <li>JavaScript </li>
-                        <li>React JS</li>
-                        <li>Angular</li>
-                        <li>Android Development</li>
-                    </ul>
-                </li>
-                <li>Communication
-                    <ul>
-                        <li>Communication Skills</li>
-                        <li>Presentation Skills</li>
-                        <li>Public Speaking</li>
-                        <li>Email Writing</li>
-                    </ul>
-                </li>
-                <li>Business Analytics & Intelligence
-                    <ul>
-                        <li>Microsoft Excel</li>
-                        <li>SQL</li>
-                        <li>Power BI</li>
-                        <li>Tableau</li>
-                        <li>Data Visualization</li>
-                    </ul>
-                </li>
-            </ul>
+                    <input id="allcourses"type="button" value="Show all Courses"> 
+                </div>
+                 
+            </div>
+           
         </section>
-        <h4>Show all Courses</h4> <!--Make a Button later-->
+        
 
         <!-- LIST OF TRUSTED COMPANIES  -->
         <section>
-            <p>Trusted by over 16,000 companies and millions of learners around the world</p>
-            <ul> <!--Insert icons later-->
-                <li><img src=" https://cms-images.udemycdn.com/content/tqevknj7om/svg/volkswagen_logo.svg?position=c&quality=80&x.app=portals"
-                        alt="VOLKSWAGON"></li>
-                <li><img src=" https://cms-images.udemycdn.com/content/2gevcc0kxt/svg/samsung_logo.svg?position=c&quality=80&x.app=portals"
-                        alt="SAMSUNG"></li>
-                <li><img src="https://cms-images.udemycdn.com/content/mueb2ve09x/svg/cisco_logo.svg?position=c&quality=80&x.app=portals"
-                        alt="CISCO"></li>
-                <li><img src="https://cms-images.udemycdn.com/content/ryaowrcjb2/svg/vimeo_logo_resized-2.svg?position=c&quality=80&x.app=portals"
-                        alt="VIMEO"></li>
-                <li><img src=" https://cms-images.udemycdn.com/content/luqe0d6mx2/svg/hewlett_packard_enterprise_logo.svg?position=c&quality=80&x.app=portals   "
-                        alt="HP ENTERPRISE"></li>
-                <li><img src="https://cms-images.udemycdn.com/content/swmv0okrlh/svg/ericsson_logo.svg?position=c&quality=80&x.app=portals"
-                        alt="ERICSSON"></li>
-            </ul>
+            <div class="companies">
+                <p id="company">Trusted by over 16,000 companies and millions of learners around the world</p>
+                <ul> <!--Insert icons later-->
+                    <li><img src=" https://cms-images.udemycdn.com/content/tqevknj7om/svg/volkswagen_logo.svg?position=c&quality=80&x.app=portals"
+                            alt="VOLKSWAGON"></li>
+                    <li><img src=" https://cms-images.udemycdn.com/content/2gevcc0kxt/svg/samsung_logo.svg?position=c&quality=80&x.app=portals"
+                            alt="SAMSUNG"></li>
+                    <li><img src="https://cms-images.udemycdn.com/content/mueb2ve09x/svg/cisco_logo.svg?position=c&quality=80&x.app=portals"
+                            alt="CISCO"></li>
+                    <li><img src="https://cms-images.udemycdn.com/content/ryaowrcjb2/svg/vimeo_logo_resized-2.svg?position=c&quality=80&x.app=portals"
+                            alt="VIMEO"></li>
+                    <li><img src=" https://cms-images.udemycdn.com/content/luqe0d6mx2/svg/hewlett_packard_enterprise_logo.svg?position=c&quality=80&x.app=portals   "
+                            alt="HP ENTERPRISE"></li>
+                    <li><img src="https://cms-images.udemycdn.com/content/swmv0okrlh/svg/ericsson_logo.svg?position=c&quality=80&x.app=portals"
+                            alt="ERICSSON"></li>
+                </ul>
+            </div>
         </section>
         
         <!-- GOALS SECTION -->
-        <section>
-            <h2>Learning focused on your goals</h2>
-            <ul>
-                <li>Hands-on training</li>
-                <li>Certification Prep</li>
-                <li>Insights and analytics</li>
-                <li>Customizable content</li>
-            </ul>
-            <img src="https://cms-images.udemycdn.com/96883mtakkm8/4kbyXne3Slx9Sfz4nTBqdf/8ac2b75db1a118f15e2fb5dfe2bb4567/desktop-hands-on-learning-2x.png"
-                alt="containerization" width="600px">
+        <section class="goalsection">
+            <h2>Learning focused on your goals</h2>   
+            <div class="goalsection-div">
+                             
+                <div class="goals">  
+                    <ul> 
+                        <li>Hands-on training</li>
+                        <li>Certification Prep</li>
+                        <li>Insights and analytics</li>
+                        <li>Customizable content</li>
+                    </ul>
+                </div>
+                <div>
+                    <img src="https://cms-images.udemycdn.com/96883mtakkm8/4kbyXne3Slx9Sfz4nTBqdf/8ac2b75db1a118f15e2fb5dfe2bb4567/desktop-hands-on-learning-2x.png"
+                    alt="containerization" width="600px">
+                </div>
+                
+            </div>
+            
         </section>
 
         <!-- PLANS SECTION -->
         <section>
-            <h2 class="h2">Accelerate growth — for you or your organization</h2>
-            <p>Reach goals faster with one of our plans or programs. Try one free today or contact sales to learn more.</p>
-            <ul>
-                <li>Personal Plan</li>
-                <li>Team Plan</li>
-                <li>Enterprise Plan</li>
-            </ul>
-        </section>
-
-        <!-- TESTIMONIALS SECTION -->
-        <section>
-            <h2>See what others are achieving through learning</h2>
-            <ul> <!--Add user reviews-->
-                <li>User 1
-                    <p>"Because of this course I was able to clear my two interviews... Thanks for making such wonderful
-                        content.</p>
-                </li>
-                <li>User 2
-                    <p>"This has helped me so much in my career...I joined as a frontend engineer and eventually transitioned to
-                        full stack engineer with the help of this course.</p>
-                </li>
-                <li>User 3
-                    <p>"Today, I am a software developer, and I credit a significant part of my success to the solid foundation
-                        laid by this course.</p>
-                </li>
-                <li>User 4
-                    <p>"I would highly recommend this Web Development Bootcamp to anyone interested in pursuing a career in web
-                        development or looking to enhance their skills in this field.</p>
-                </li>
-            </ul>
-        </section>
-        <!-- TRENDS SECTION -->
-        <section>
-            <h2>Top trends for the <br> future of work</h2>
-            <p>Our 2025 Global Learning & Skills <br> Trends Report is out now! Find out <br> how to build the skills to keep
-                pace <br> with
-                change.</p>
-            <ul>
-                <li>
-                    <h4>Get the Report</h4> <!--Add a button later-->
-                </li>
-            </ul>
-            <img src="https://cms-images.udemycdn.com/96883mtakkm8/1qvvR0FDKv9chruIpia6Sc/b2af22a0097e47de4e4354237e3f378c/Onsite_Desktop_GLSTR25.png"
-                alt="2025 global skills report" width="800px">    
-        </section>
-        
-        <!-- TRENDING NOW SECTION -->
-        <section>
-            <h2>Trending Now</h2>
-            <h3>
-                <ul >
-                    <li>ChatGPT is a top skill
-                        <ul>
-                            <li> See ChatGPT courses</li>
+            <div id="plans">
+                <div class="plans-div">
+                    <h2 class="hp">Accelerate growth — for you or your organization</h2>
+                    <p class="hp">Reach goals faster with one of our plans or programs. Try one free today or contact sales to learn more.</p>
+                </div>
+               
+                <ul class="plans">
+                    <li class="plans-li">
+                        <p class="benefits">
+                            Personal Plan <br>
+                            Starting at ₹850 per month <br>
+    
+                            Billed monthly or annually. Cancel anytime.
+                                    
+                        </p>
+                        <ul class="benefits">
+                            <li>Access to 12,000+ top courses </li>
+                            
+                            <li>AI-powered coding exercises</li>
                         </ul>
                     </li>
-                    <li>Development
-                        <ul>
-                            <li>Python</li>
-                            <li>Web Development</li>
-                            <li>Data Science</li>
+                    <li class="plans-li">
+                        <p class="benefits">
+                            Team Plan <br>
+                            ₹2,000 a month per user <br>
+                            Billed annually. Cancel anytime.
+                        </p>
+                        <ul class="benefits">
+                            
+                            <li>Access to 12,000+ top courses </li>
+                            <li> Certification prep  </li>
+                             
                         </ul>
                     </li>
-                    <li>Design
-                        <ul>
-                            <li>Blender</li>
-                            <li>Graphic Design</li>
-                            <li>UX Design</li>
-                        </ul>
-                    </li>
-                    <li>Business
-                        <ul>
-                            <li>PMP</li>
-                            <li>Power BI</li>
-                            <li>Project Management</li>
+                    <li class="plans-li"> 
+                        <p class="benefits">
+                            Enterprise Plan <br>
+                            Contact sales for pricing
+                        </p>
+                        <ul class="benefits">
+                            <li>Hands-on tech training with add-on</li>
+                            <li>Strategic implementation services with add-on</li>
                         </ul>
                     </li>
                 </ul>
-            </h3>
-            <ul>
-                <li>
-                    <h4>Show all trending skills</h4>
-                </li>
-            </ul>
-        </section>  
-        <!-- Learners are viewing -->
-        <section>
-            <h2>Learners are viewing</h2>
-            <ul>
-                <li>100 Days of Code </li>
-                <li>2024 Web Development Bootcamp</li>
-            </ul>
+            </div>
+            
         </section>
+
+        <!-- TESTIMONIALS SECTION -->
+        <section class="testi">
+           <div class="testi" >
+                <h2>See what others are achieving through learning</h2>
+                <ul class="users"> <!--Add user reviews-->
+                    <li>User 1
+                        <p>"Because of this course I was able to clear my two interviews... Thanks for making such wonderful
+                            content.</p>
+                    </li>
+                    <li>User 2
+                        <p>"This has helped me so much in my career...I joined as a frontend engineer and eventually transitioned to
+                            full stack engineer with the help of this course.</p>
+                    </li>
+                    <li>User 3
+                        <p>"Today, I am a software developer, and I credit a significant part of my success to the solid foundation
+                            laid by this course.</p>
+                    </li>
+                    <li>User 4
+                        <p>"I would highly recommend this Web Development Bootcamp to anyone interested in pursuing a career in web
+                            development or looking to enhance their skills in this field.</p>
+                    </li>
+                </ul>
+           </div>
+        </section>
+
+        <!-- TRENDS SECTION -->
+        <section class="trends">
+            <div class="trends">
+                <div class="trends-div" >
+                    <h2>Top trends for the <br> future of work</h2>
+                    <p>Our 2025 Global Learning & Skills <br> Trends Report is out now! Find out <br> how to build the skills to keep
+                        pace <br> with
+                        change.</p>
+                    <ul>
+                        <li>
+                            <h4>Get the Report</h4> <!--Add a button later-->
+                        </li>
+                    </ul>
+                </div>
+                <div class="trends-img">
+                    <img src="https://cms-images.udemycdn.com/96883mtakkm8/1qvvR0FDKv9chruIpia6Sc/b2af22a0097e47de4e4354237e3f378c/Onsite_Desktop_GLSTR25.png"
+                    alt="2025 global skills report" width="800px">    
+                </div>
+            </div>
+            
+        </section>
+        
+        <!-- TRENDING NOW SECTION -->
+        <section class="trending">
+            <div class="trending-maindiv">
+                <h2>Trending Now</h2>
+                <h3>
+                    <ul class="trending-ul">
+                        <li class="trending-ul-li">ChatGPT is a top skill
+                            <ul>
+                                <li> See ChatGPT courses</li>
+                            </ul>
+                        </li>
+                        <li class="trending-ul-li">Development
+                            <ul>
+                                <li>Python</li>
+                                <li>Web Development</li>
+                                <li>Data Science</li>
+                            </ul>
+                        </li>
+                        <li class="trending-ul-li">Design
+                            <ul>
+                                <li>Blender</li>
+                                <li>Graphic Design</li>
+                                <li>UX Design</li>
+                            </ul>
+                        </li>
+                        <li class="trending-ul-li">Business
+                            <ul>
+                                <li>PMP</li>
+                                <li>Power BI</li>
+                                <li>Project Management</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </h3>
+                <ul>
+                    <li>
+                        <button id="trending-button" > Show all trending skills </button>
+                    </li>
+                </ul>
+               
+            </div>
+          
+        </section>  
+       
             
         <!-- ACHIEVEMENTS SECTION -->
-        <section>
-            <h2>Toyota Tsusho Enhances its L&D Program to Improve Employee Outcomes</h2>
-            <ul>
-                <li>
-                    <h2>50%</h2>
-                    <p>training cost reduction per person</p>
-                </li>
-                <li>
-                    <h2>+7,000</h2>
-                    <p>hours of upskilling</p>
-                </li>
-                <li>
-                    <h4>Read full story</h4> <!--Add a button later-->
-                </li>
-            </ul>
+        <section class="achieve">
+           <div >
+                <h2>Toyota Tsusho Enhances <br> L&D  Program to Improve <br>its Employee Outcomes</h2>
+                <ul class="achieve-ul">
+                    <li>
+                        <h2>50%</h2>
+                        <p>training cost reduction per person</p>
+                    </li>
+                    <li>
+                        <h2>+7,000</h2>
+                        <p>hours of upskilling</p>
+                    </li>
+                     
+                </ul>
+                <button id="achievements" > Read full story</button>
+           </div>
+
             <img src="https://cms-images.udemycdn.com/content/c4gpjcmcsk/png/UB_Case_Studies_Booz_Allen_image.png?position=c&quality=80&x.app=portals"
                 alt="professionals" width="600px">
         </section>
@@ -274,54 +363,67 @@
 
      <!-- FOOTER SECTION -->
      <footer>
-        <section>
-            <h3>Top companies choose Udemy Business to build in-demand career skills.</h3>
-            <h4>
-                <ul>
-                    <li>
-                        Nasdaq
-                    </li>
-                    <li>
-                        VOLKSWAGON
-                    </li>
-                    <li>
-                        Box
-                    </li>
-                    <li>
-                        NetApp
-                    </li>
-                </ul>
-            </h4>    
+        <section class="footer">
+            <h3>Top companies choose <span>Udemy Business</span> to build in-demand career skills.</h3>
+            
+            <ul class="footer-img">
+                    <li><img src=" https://cms-images.udemycdn.com/content/tqevknj7om/svg/volkswagen_logo.svg?position=c&quality=80&x.app=portals"
+                            alt="VOLKSWAGON"></li>
+                    <li><img src=" https://cms-images.udemycdn.com/content/2gevcc0kxt/svg/samsung_logo.svg?position=c&quality=80&x.app=portals"
+                            alt="SAMSUNG"></li>
+                    <li><img src="https://cms-images.udemycdn.com/content/mueb2ve09x/svg/cisco_logo.svg?position=c&quality=80&x.app=portals"
+                            alt="CISCO"></li>
+                    <li><img src="https://cms-images.udemycdn.com/content/ryaowrcjb2/svg/vimeo_logo_resized-2.svg?position=c&quality=80&x.app=portals"
+                            alt="VIMEO"></li>
+                    <li><img src=" https://cms-images.udemycdn.com/content/luqe0d6mx2/svg/hewlett_packard_enterprise_logo.svg?position=c&quality=80&x.app=portals   "
+                            alt="HP ENTERPRISE"></li>
+                    <li><img src="https://cms-images.udemycdn.com/content/swmv0okrlh/svg/ericsson_logo.svg?position=c&quality=80&x.app=portals"
+                            alt="ERICSSON"></li>
+            </ul>
+              
         </section>
 
-        <section>
-            <h4>QUICK LINKS</h4>
-            <ul>
-                <li>Udemy Business</li>
-                <li>Teach on Udemy</li>
-                <li>Get the app</li>
-                <li>About us</li>
-                <li>Contact us</li>
-                <li>Careers</li>
-           
-                <li>Blog</li>
-                <li>Help and Support</li>
-                <li>Affiliate</li>
-                <li>Investors</li>
-                <li>Terms</li>
-                <li>Privacy policy</li>
-                <li>Cookie Settings</li>
-                <li>Sitemap</li>
-                <li>Accessibility statement</li>
-            </ul>
+        <section class="quick">
+            <h4 >QUICK LINKS</h4>
+            <div>
+                <ul>
+                    <li>
+                        Udemy Business <br>
+                        Teach on Udemy <br>
+                        Get the app <br>
+                        About us
+                    </li>
+
+                    <li>
+                        Contact us<br>
+                        Careers<br>
+                        Blog <br>
+                        Help and Support
+                    </li>
+
+                    <li>
+                        Affiliate <br>
+                        Investors <br>
+                        Terms <br>
+                        Privacy policy
+                    </li>
+
+                    <li>Cookie Settings <br>
+                        Get the app <br>
+                        Accessibility statement <br>
+                        Site Map
+                    </li>
+                </ul>
+            </div>
         </section>
-       
-        <h3 id="languages">English</h3><!-- Button showing chosen language for the Webpage-->
-        <a href="index.html">
-            <img src="https://frontends.udemycdn.com/frontends-homepage/staticx/udemy/images/v7/logo-udemy.svg"
-            alt="Udemy" width="91" height="34" loading="lazy">
-        </a>
-        <p>© 2024 Udemy, Inc.</p>
+        <section class="about">
+            <h3 id="languages"> <img src="https://img.icons8.com/?size=100&id=Kqsi3v5rWFW9&format=png&color=FFFFFF"  alt=" globe"> English</h3><!-- Button showing chosen language for the Webpage-->
+            <a href="index.html">
+                <img src="https://www.udemy.com/staticx/udemy/images/v7/logo-udemy-inverted.svg" alt="Udemy" width="91.07142857142857" height="34" loading="eager">
+            </a>
+            <p>© 2025 Udemy, Inc.</p>
+        </section>
+
     </footer>
 
 </body>
