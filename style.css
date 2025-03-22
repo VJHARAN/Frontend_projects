@@ -10,7 +10,7 @@ body{
     font-family: "Poppins", serif;
     font-weight: 700;
     font-style: normal;
-    background-color:#222471;   
+    background-color:#5e62a9;   
     
     margin:50px;
 }
@@ -23,20 +23,24 @@ h1{
     margin:0 auto;
     padding:10px 50px ;
 }
+
 ul{ 
-    width:fit-content;
     margin:50px auto;
     display: flex;
-    flex-direction: column;
-    align-items:center ;
+    flex-wrap: wrap;
     list-style: none;   
     padding:0;
+    
 }
+
 h2{
     margin:0;   
 }
+
 li{  
-     
+    flex:0 0 30%;
+    text-align: center;
+    width:400px;
     margin:20px;
     border-top: 4px solid rgb(0, 0, 0);    
     padding:10px;
@@ -51,5 +55,8 @@ li a {
     text-decoration: none;
 }
 
+li:hover{
+    background-color:#6e27b5de ;
+}
    
 
