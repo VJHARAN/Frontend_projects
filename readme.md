@@ -1,8 +1,7 @@
-
-<h1>HTML & CSS Projects </h1>
-<h3><a href="https://vjharan.github.io/HTML_CSS_projects/">View projects here </a></h3>
+<h1>Front-End Projects </h1>
+<h3><a href="https://vjharan.github.io/Frontend_projects/">View projects here </a></h3>
 <h3>Description</h3>
-<p>This webpage contains links to all the projects done by me with HTML & CSS </p>
+<p>This webpage contains links to all the projects done by me with HTML, CSS and JavaScript </p>
  
 <ul>
     <li>Rock_Paper_Scissors GAME</li>
