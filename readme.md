@@ -4,6 +4,7 @@
 <p>This webpage contains links to all the projects done by me with HTML, CSS and JavaScript </p>
  
 <ul>
+    <li>Sketchpad</li>
     <li>Rock_Paper_Scissors GAME</li>
     <li>Recipe page</li> 
     <li>Croxy Proxy webpage</li>
